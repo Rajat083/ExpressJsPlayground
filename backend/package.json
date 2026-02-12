@@ -1,0 +1,26 @@
+{
+  "name": "expressjsplayground",
+  "version": "1.0.0",
+  "type" : "module",
+  "description": "learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajat083/ExpressJsPlayground.git"
+  },
+  "author": "Rajat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rajat083/ExpressJsPlayground/issues"
+  },
+  "homepage": "https://github.com/Rajat083/ExpressJsPlayground#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
