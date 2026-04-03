@@ -1,11 +1,11 @@
 {
   "name": "expressjsplayground",
   "version": "1.0.0",
-  "type" : "module",
+  "type": "commonjs",
   "description": "learning purpose",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev" : "nodemon index.js",
+    "nodemon": "nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/Rajat083/ExpressJsPlayground#readme",
   "dependencies": {
+    "@imagekit/nodejs": "^7.3.0",
+    "dotenv": "^17.4.0",
     "express": "^5.2.1",
+    "imagekit": "^6.0.0",
     "mongoose": "^9.2.1",
+    "multer": "^2.1.1",
     "nodemon": "^3.1.11"
   }
 }
